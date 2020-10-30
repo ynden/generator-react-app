@@ -13,8 +13,8 @@ jobs:
 
       - name: Publish
         uses: actions/setup-node@v1
-        run: |
-          npm install
-          npm publish
+
+      - run: npm install
+      - run: npm publish
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

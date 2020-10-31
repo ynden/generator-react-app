@@ -11,8 +11,10 @@ jobs:
       - name: Checkout project
         uses: actions/checkout@v2
 
-      - name: Publish
-        uses: actions/setup-node@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+          registry-url: 'https://registry.npmjs.org'
 
       - run: npm publish
         env:

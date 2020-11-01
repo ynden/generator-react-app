@@ -1,6 +1,6 @@
 {
 	"name": "generator-build-for-me",
-	"version": "0.5.0",
+	"version": "0.6.0",
 	"description": "A generator made with to fire up a React application boilerplate.",
 	"files": [
 		"generators"
@@ -10,5 +10,7 @@
 	],
 	"dependencies": {
 		"yeoman-generator": "^1.0.0"
-	}
+	},
+	"homepage": "https://github.com/ynden/generator-react-app",
+	"license": "MIT"
 }
